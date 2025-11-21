@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Penjualan Gas LPG Melalui Online</title>
+  <style>
+    body {
+      font-family: 'Trebuchet MS', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9fafa;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #4caf50;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      margin: 0 0 10px 0;
+      font-size: 2.5rem;
+      letter-spacing: 1.2px;
+    }
+
+    header p {
+      margin: 0;
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 20px;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      border-radius: 8px;
+    }
+
+    section {
+      padding: 20px 0;
+      border-bottom: 1px solid #ddd;
+    }
+
+    section:last-child {
+      border-bottom: none;
+    }
+
+    h2 {
+      color: #4caf50;
+      margin-bottom: 15px;
+      border-left: 5px solid #4caf50;
+      padding-left: 12px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    ol {
+      padding-left: 20px;
+      margin-bottom: 20px;
+    }
+
+    .btn-order {
+      display: inline-block;
+      background-color: #4caf50;
+      color: white;
+      padding: 14px 28px;
+      font-size: 1.1rem;
+      font-weight: bold;
+      border-radius: 6px;
+      text-decoration: none;
+      margin: 20px 0;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn-order:hover {
+      background-color: #388e3c;
+    }
+
+    .contact-info p,
+    .social-media ul {
+      margin: 6px 0;
+    }
+
+    .social-media ul {
+      list-style: none;
+      padding-left: 0;
+      display: flex;
+      gap: 20px;
+    }
+
+    .social-media ul li {
+      background-color: #e8f5e9;
+      padding: 8px 15px;
+      border-radius: 20px;
+      color: #2e7d32;
+      font-weight: 600;
+    }
+
+    .image-container {
+      text-align: center;
+      margin: 30px 0;
+    }
+
+    .image-container img {
+      max-width: 200px;
+      border-radius: 10px;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px 10px;
+      color: #777;
+      font-size: 0.9rem;
+      margin-top: 40px;
+    }
+
+    @media(max-width:600px) {
+      header h1 {
+        font-size: 1.9rem;
+      }
+      main {
+        margin: 15px;
+      }
+      .btn-order {
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+      }
+      .social-media ul {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Penjualan Gas LPG Melalui Online</h1>
+    <p>Mudah, Cepat, dan Aman</p>
+  </header>
+
+  <main>
+    <section class="intro">
+      <p>
+        Kami menawarkan penjualan Gas LPG melalui online dengan harga kompetitif dan pengiriman yang cepat. Anda dapat memesan gas LPG dari kenyamanan rumah Anda dan kami akan mengantarnya langsung ke alamat Anda.
+      </p>
+    </section>
+
+    <section class="benefits">
+      <h2>Keuntungan</h2>
+      <ul>
+        <li>Harga kompetitif</li>
+        <li>Pengiriman cepat</li>
+        <li>Pelayanan pelanggan yang ramah</li>
+        <li>Garansi kepuasan</li>
+      </ul>
+    </section>
+
+    <section class="order-steps">
+      <h2>Cara Memesan</h2>
+      <ol>
+        <li>Klik tombol <strong>"Pesan Sekarang"</strong> di bawah ini</li>
+        <li>Isi formulir pemesanan dengan data Anda</li>
+        <li>Pilih metode pembayaran yang diinginkan</li>
+        <li>Konfirmasi pemesanan Anda</li>
+      </ol>
+      <div style="text-align:center;">
+        <a href="#" class="btn-order" onclick="alert('Formulir pemesanan sedang dalam pengembangan!')">Pesan Sekarang</a>
+      </div>
+    </section>
+
+    <section class="image-container">
+      <img src="https://i.imgur.com/6mjWPaB.jpg" alt="Tabung Gas LPG" />
+    </section>
+
+    <section class="contact-info">
+      <h2>Hubungi Kami</h2>
+      <p><strong>Telepon:</strong> 089507886428</p>
+      <p><strong>Email:</strong> <a href="mailto:info@gaslpgonline.com">info@gaslpgonline.com</a></p>
+      <p><strong>Alamat:</strong> Jl. Raya No. 123, Medan</p>
+      <p><strong>Jam Operasional:</strong></p>
+      <ul>
+        <li>Senin - Jumat: 08.00 - 17.00</li>
+        <li>Sabtu: 08.00 - 12.00</li>
+      </ul>
+    </section>
+
+    <section class="social-media">
+      <h2>Sosial Media</h2>
+      <ul>
+        <li>Facebook: @gaslpgonline</li>
+        <li>Instagram: @gaslpgonline</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2024 Gas LPG Online. Semua hak cipta dilindungi.
+  </footer>
+</body>
+</html>
